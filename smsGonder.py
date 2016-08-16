@@ -8,7 +8,7 @@ host = '192.168.0.16'
 
 s.connect((host,port))
 
-cevap = {'numara':'05438730593','msj':'python deneme'}
+cevap = {'numara':'12342143','msj':'python deneme'}
 
 s.sendall(json.dumps(cevap).encode('utf-8'));
 
